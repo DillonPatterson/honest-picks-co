@@ -45,7 +45,7 @@ const ReviewCard = ({ title, slug, category, rating, excerpt, imageUrl, price }:
   return (
     <Link
       to={`/reviews/${slug}`}
-      className="group overflow-hidden rounded-md border border-border bg-card shadow-sm transition-all hover:shadow-md"
+      className="group overflow-hidden rounded-md border border-border bg-card shadow-sm transition-all hover:shadow-lg hover:-translate-y-1"
     >
       <div className="aspect-video overflow-hidden bg-muted">
         <img

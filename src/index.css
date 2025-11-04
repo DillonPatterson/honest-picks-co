@@ -94,5 +94,24 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1 {
+    @apply font-sans text-[42px] font-bold leading-tight tracking-tight;
+  }
+
+  h2 {
+    @apply font-sans text-[30px] font-semibold leading-tight tracking-tight;
+  }
+
+  h3 {
+    @apply font-sans text-[22px] font-semibold leading-tight tracking-tight;
+  }
+
+  /* Container max-width */
+  .container {
+    max-width: 1160px;
   }
 }
